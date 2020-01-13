@@ -13,6 +13,7 @@
 		45942FCB23CCE408009EE10F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45942FC923CCE408009EE10F /* Main.storyboard */; };
 		45942FCD23CCE40B009EE10F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45942FCC23CCE40B009EE10F /* Assets.xcassets */; };
 		45942FD023CCE40B009EE10F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45942FCE23CCE40B009EE10F /* LaunchScreen.storyboard */; };
+		45942FD823CCF1FA009EE10F /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 45942FD723CCF1FA009EE10F /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		45942FCC23CCE40B009EE10F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45942FCF23CCE40B009EE10F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45942FD123CCE40B009EE10F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45942FD723CCF1FA009EE10F /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		45942FC223CCE408009EE10F /* Photo-Recognition-xcode */ = {
 			isa = PBXGroup;
 			children = (
+				45942FD723CCF1FA009EE10F /* SqueezeNet.mlmodel */,
 				45942FC323CCE408009EE10F /* AppDelegate.swift */,
 				45942FC523CCE408009EE10F /* SceneDelegate.swift */,
 				45942FC723CCE408009EE10F /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				45942FC823CCE408009EE10F /* ViewController.swift in Sources */,
 				45942FC423CCE408009EE10F /* AppDelegate.swift in Sources */,
 				45942FC623CCE408009EE10F /* SceneDelegate.swift in Sources */,
+				45942FD823CCF1FA009EE10F /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
