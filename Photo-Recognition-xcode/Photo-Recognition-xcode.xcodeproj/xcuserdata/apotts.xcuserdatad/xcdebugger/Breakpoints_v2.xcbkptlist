@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E7FB6BAD-D3BF-4EC2-9835-F18F11B671C3"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Photo-Recognition-xcode/ViewController.swift"
@@ -40,7 +40,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "47FC0253-CEA4-4DD2-AE27-0BBEB8E2380E"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Photo-Recognition-xcode/ViewController.swift"
@@ -49,6 +49,22 @@
             startingLineNumber = "57"
             endingLineNumber = "57"
             landmarkName = "imagePickerControllerDidCancel(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B235E6F8-6E19-4A6B-A50E-9093B9A970C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/Photo-Recognition-xcode-ejgnuwndavjisndjwmdhtsxaqakf/Build/Intermediates.noindex/Photo-Recognition-xcode.build/Debug-iphonesimulator/Photo-Recognition-xcode.build/DerivedSources/CoreMLGenerated/SqueezeNet/SqueezeNet.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "prediction(image:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

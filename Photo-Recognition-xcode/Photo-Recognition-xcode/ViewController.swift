@@ -65,7 +65,7 @@ extension ViewController: UIImagePickerControllerDelegate {
                 return
             }
             
-            UIGraphicsBeginImageContextWithOptions(CGSize(width: 299, height: 299), true, 2.0)
+            UIGraphicsBeginImageContextWithOptions(CGSize(width: 227, height: 227), true, 2.0)
             image.draw(in: CGRect(x: 0, y: 0, width: 299, height: 299))
             let newImage = UIGraphicsGetImageFromCurrentImageContext()!
             UIGraphicsEndImageContext()
