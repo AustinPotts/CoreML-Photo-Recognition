@@ -42,6 +42,7 @@
 		45942FB723CCE408009EE10F = {
 			isa = PBXGroup;
 			children = (
+				45942FD723CCF1FA009EE10F /* SqueezeNet.mlmodel */,
 				45942FC223CCE408009EE10F /* Photo-Recognition-xcode */,
 				45942FC123CCE408009EE10F /* Products */,
 			);
@@ -58,7 +59,6 @@
 		45942FC223CCE408009EE10F /* Photo-Recognition-xcode */ = {
 			isa = PBXGroup;
 			children = (
-				45942FD723CCF1FA009EE10F /* SqueezeNet.mlmodel */,
 				45942FC323CCE408009EE10F /* AppDelegate.swift */,
 				45942FC523CCE408009EE10F /* SceneDelegate.swift */,
 				45942FC723CCE408009EE10F /* ViewController.swift */,
